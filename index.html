@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.12.3, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="header6 cid-snEh1dmh4i mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=36YgDDJ7XSc" id="header6-0">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Wiz &amp; ShionのVyond特化<br>高単価案件獲得コンサル<br></h1>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5"><strong><em>【営業】<br></em></strong>■ 動画編集の営業戦略とは<br>■ 営業の基礎<br>■ 営業での注意点ターゲット<br>■ 営業文、ポートフォリオの重要性（実践有）<br>■ 提案力を身につけるテクニック（実践有）<br>■ 企業相手の営業戦略<br>■ 自分を最高値で売る<br>■ ブランディングの重要性<br>■ ディレクター業務への移行<br><br><strong><em>【Twitter運用】<br></em></strong>■ Twitter運用の心得<br>■ SNSマーケティング<br>■ プロフィール設定<br>■ アナリティクス分析<br>■ 認知を広げる方法<br>■ ファン獲得<br><br><strong><em>【マネタイズ】<br></em></strong>■ アニメーション編集単価アップについて<br>■ 継続案件受注について<br><br><strong><em>【動画編集】<br></em></strong>■ photoshop操作の基礎知識<br>■ サムネ作りの基礎知識<br>■ バナー・ロゴ製作<br>■ Premier proの基礎講座<br>■ デザイン性の高い動画作成の基礎知識<br><br><strong><em>【受講生特典】</em></strong><br>■ Vyondの網羅的な解説講座 「Nomad Anime」<br>■ VYOND効率化の完全ガイド with Effica<br><br>■ 優良素材サイト１０個の紹介<br>■ 無制限の質問対応<br>■ Zoom実技指導<br>■ 限定コミュニティへの参加<br>■ 営業文の添削指導<br><br><strong><em>【価格】</em></strong><br>■ 10万円 (10回払い)<strong><em><br></em></strong><br></p>
+                <div class="mbr-section-btn align-center"><button type='button' id='checkout-button-price_1IFZ96DD6lRICkhFHjLbRe4W' class="btn btn-md btn-primary display-4">お申し込みはこちら</a></div>
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+
+
+  <section class="engine"><a href="https://mobirise.info/z">best html templates</a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<!-- <button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+  id="checkout-button-price_1IFZ96DD6lRICkhFHjLbRe4W"
+  role="link"
+  type="button"
+>
+  Checkout
+</button> -->
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51HCmmlDD6lRICkhFZlfXGFAAI3Is3QduqcVQ0zuP83qz54V6W9ZWwQFIkWHy6NOlZhC7q3kFlGxhNWhRp1ebS19200SbOyWkRy');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1IFZ96DD6lRICkhFHjLbRe4W');
+  checkoutButton.addEventListener('click', function () {
+    /*
+     * When the customer clicks on the button, redirect
+     * them to Checkout.
+     */
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1IFZ96DD6lRICkhFHjLbRe4W', quantity: 1}],
+      mode: 'subscription',
+      /*
+       * Do not rely on the redirect to the successUrl for fulfilling
+       * purchases, customers may not always reach the success_url after
+       * a successful payment.
+       * Instead use one of the strategies described in
+       * https://stripe.com/docs/payments/checkout/fulfill-orders
+       */
+      successUrl: 'https://effi-tech.github.io/effitech/thanks',
+      cancelUrl: 'https://effi-tech.github.io/effitech/wiz_shion_consulting',
+    })
+    .then(function (result) {
+      if (result.error) {
+        /*
+         * If `redirectToCheckout` fails due to a browser or network
+         * error, display the localized error message to your customer.
+         */
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+  
+</body>
+</html>
